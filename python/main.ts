@@ -27,7 +27,7 @@ namespace lightdriver{
     }
 
     //% block="driver set freq[FREQ]" blockType="command"
-    //% FREQ.shadow="range" FREQ.params.min=0    FREQ.params.max=10     FREQ.defl=860
+    //% FREQ.shadow="range" FREQ.params.min=183    FREQ.params.max=46875     FREQ.defl=860 
     export function setfreq(parameter: any, block: any) {
         let freq=parameter.FREQ.code;
 
@@ -37,7 +37,7 @@ namespace lightdriver{
     }    
 
     //% block="driver set duty[DUTY]" blockType="command"
-    //% DUTY.shadow="range"  DUTY.params.min=0    DUTY.params.max=1     DUTY.defl=0.82
+    //% DUTY.shadow="number"   DUTY.defl=0.82
     export function setduty(parameter: any, block: any) {
         let duty=parameter.DUTY.code;
 
