@@ -1,0 +1,21 @@
+{
+    "lightdriver.init|block": "驱动板初始化 端口[PORT]波特率[BAUD]",
+    "lightdriver.get|block": "驱动板获取[SHD]",
+    "lightdriver.setfreq|block": "驱动板 设置频率[FREQ]",
+    "lightdriver.setduty|block": "驱动板 设置占空比[DUTY]",
+    "lightdriver.setenab|block": "驱动板 设置使能[ENAB]",
+
+
+
+    "lightdriver.SHD.version|menu": "版本",
+    "lightdriver.SHD.addr|menu": "地址",
+    "lightdriver.SHD.vid|menu": "VID",
+    "lightdriver.SHD.pid|menu": "PID",
+    "lightdriver.SHD.freq|menu": "频率",
+    "lightdriver.SHD.duty|menu": "占空比",
+    "lightdriver.SHD.enable|menu": "使能状态",
+    "lightdriver.ENAB.1|menu": "开",
+    "lightdriver.ENAB.0|menu": "关"
+
+
+}

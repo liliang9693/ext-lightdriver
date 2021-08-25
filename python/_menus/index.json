@@ -1,0 +1,21 @@
+{
+
+    "SHD": {
+      "menu": [
+        ["version", "get_version()"],
+        ["addr", "get_addr()"], 
+        ["vid", "get_vid()"], 
+        ["pid", "get_pid()"], 
+        ["freq", "get_freq()"], 
+        ["duty", "get_duty()"], 
+        ["enable", "get_enable()"]
+        ]
+    },
+    "ENAB": {
+      "menu": [
+        ["1", "1"], 
+        ["0", "0"]
+        ]
+    }
+
+}

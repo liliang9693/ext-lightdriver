@@ -1,0 +1,26 @@
+{
+  "name": {
+    "zh-cn": "灯光&电机驱动板",
+    "en": "Light&Motor Driver"
+  },
+  "description": {
+    "zh-cn": "DRI0050: 四种方式调节的PWM驱动器,用于电机调速、灯光调节等场景",
+    "en": "DRI0050: Light&Motor Driver"
+  },
+  "author": "liliang",
+  "email": "969316753@qq.com",
+  "license": "MIT",
+  "isBoard": false,
+  "id": "lightdriver",
+  "platform": ["win","mac","web","linux"],
+  "version": "0.0.1",
+  "asset": {
+	"python": {
+		"dir": "python/",
+		"main": "main.ts",
+		"dependencies": {
+        "modbus_tk":"1.1.2"
+      }
+  }
+}
+}
